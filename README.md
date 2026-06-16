@@ -1,16 +1,21 @@
-## Hi there 👋
+from @bibilogs import DataEngineer
 
-<!--
-**bibilogs/bibilogs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class Bio(DataEngineer):
+    name = 'Beatriz Rodrigues'
+    role = 'Data Engineering Student'
+    location = 'Brasília, Brazil'
 
-Here are some ideas to get you started:
+    currently_learning = [
+      'Airflow',
+      'Apache Spark',
+      'Cloud Computing',
+      'Data Warehousing'
+    ]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    skills = {
+      'Languages': ['Java', 'Python', 'SQL'],
+      'Data Processing': ['ETL Pipelines', 'Pandas'],
+      'Cloud': ['AWS'],
+      'Databases': ['MongoDB', 'PostgreSQL', 'MySQL'],
+      'Tools': ['Git', 'Docker']
+    }
