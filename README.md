@@ -1,7 +1,8 @@
+```python
 from @bibilogs import DataEngineer
 
-class Bio(DataEngineer):
-    name = 'Beatriz Rodrigues'
+class Bio(DataEngineer):    
+    name = 'Beatriz Rodrigues'    
     role = 'Data Engineering Student'
     location = 'Brasília, Brazil'
 
